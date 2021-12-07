@@ -2,12 +2,13 @@ html {
     box-sizing: border-box;
 }
 
+/*---------ключ--4506480e6901561b427600dc77aacb10----------*/
+
 *,
 *::after,
 *::before {
     box-sizing: inherit;
 }
-
 
 body {
     min-width: 320px;
@@ -24,7 +25,10 @@ img {
     height: auto;
 }
 
-h1, h2, p, ul {
+h1,
+h2,
+p,
+ul {
     margin: 0;
 }
 
@@ -47,7 +51,7 @@ a:hover {
     color: var(--color-primary);
 }
 
-input[type="search" i]::-webkit-search-cancel-button{
+input[type="search" i]::-webkit-search-cancel-button {
     -webkit-appearance: none;
 }
 
